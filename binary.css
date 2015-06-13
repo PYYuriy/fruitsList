@@ -1,0 +1,72 @@
+@import "http://webfonts.ru/import/alexander.css";
+body{
+	background: url(http://openwalls.com/down/image/18849/green_background_2_1920x1200.jpg);
+		background-size: cover;
+	background-attachment: fixed
+}
+
+div#wrapper{
+	width:503px;
+	height:302px;
+	margin:100px auto 0;
+}
+
+h1{
+font-family: 'Alexander';
+color: #062901;
+}
+
+div.a1{
+	background: rgba(128, 128, 128,.6);
+	float:left;
+	width:230px;
+	height:400px;
+	border:1px solid black;
+	padding:10px;
+	overflow-y: auto;
+}
+
+div.a1:nth-child(2){
+	border-left:none;
+}
+
+.deleteFruit{
+	display: none;
+	cursor: pointer;
+	color: red;
+	padding: 4px;
+	width: 5px;
+	position: relative;
+	right:16px;
+}
+
+td{
+	background: -webkit-linear-gradient(top, #E4E4E4 0%, #BDC8B9 49%, #BDC8B9 51%, #E4E4E4 100%);
+	background: -moz-linear-gradient(top, #E4E4E4 0%, #BDC8B9 49%, #BDC8B9 51%, #E4E4E4 100%);
+	background: -o-linear-gradient(top, #E4E4E4 0%, #BDC8B9 49%, #BDC8B9 51%, #E4E4E4 100%);
+	background: -ms-linear-gradient(top, #E4E4E4 0%, #BDC8B9 49%, #BDC8B9 51%, #E4E4E4 100%);
+	background: linear-gradient(top, #E4E4E4 0%, #BDC8B9 49%, #BDC8B9 51%, #E4E4E4 100%);
+	margin:5px 0;
+	padding: 5px 5px;
+	width: 200px;
+	font-family: 'Alexander';
+}
+
+
+table{
+		border-collapse: collapse;
+}
+
+td:hover{
+	background: #E4E4E4;
+}
+
+.nameGift{
+	position: relative;
+	text-align: left;
+}
+tr:hover > .deleteFruit {
+	display: table-cell;
+}
+
+
